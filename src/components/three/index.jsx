@@ -15,9 +15,9 @@ export default function Three() {
 
   const cameraRef = useRef(null)
   
-  useEffect(() => {
-    console.log(cameraRef)
-  }, [])
+  // useEffect(() => {
+  //   console.log(cameraRef)
+  // }, [])
 
   useFrame(() => {
     const t = document.body.getBoundingClientRect().top
