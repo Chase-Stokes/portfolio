@@ -42,7 +42,7 @@ export default function Three() {
     <>
       <PerspectiveCamera ref={cameraRef} makeDefault position={[-10, 30, 0]}/>
       <Light/>
-      <Cube/>
+      {/* <Cube/> */}
       <Stars/>
       <spotLight args={['#ffffff', 2, 20, angleToRadians(45), .4, 1]} position={[-5, 2, 2]} castShadow />
       <Enviro />

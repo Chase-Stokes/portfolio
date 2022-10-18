@@ -1,9 +1,9 @@
 const Work = () => {
   return (
     <>
-      <section className="left">
+      <section className="right">
         <h2>Work History</h2>
-        <h3>💻 Opine</h3>
+        <h3>Opine</h3>
         <p>
           JS | React | Firebase | MUI
         </p>
@@ -15,7 +15,8 @@ const Work = () => {
             Internship Capstone: Build a Custom Rich Text Editor Component for students to use for stating opinions and debate other students anonymously
           </li>
         </ul>
-        <h3>🍽️ Daisy Bar & Grill</h3>
+        <hr />
+        <h3>Daisy Bar & Grill</h3>
         <p>
           Fine Dining | Customer Service
         </p>
@@ -27,6 +28,7 @@ const Work = () => {
             Interact with customers to ensure a positive dining experience.
           </li>
         </ul>
+        <hr />
       </section>
     </>
   );

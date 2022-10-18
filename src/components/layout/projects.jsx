@@ -7,24 +7,34 @@ const Projects = () => {
       <h2>Projects</h2>
       <h4>Blog Application</h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Next.js blog application using static site generation and server side rendering.
       </p>
-      <a href="https://chase-stokes-blog.vercel.app/" target='_blank'>here</a>
+      <p>You can view the hosted project and the code below.</p>
+      <a href="https://chase-stokes-blog.vercel.app/" target='_blank'>Project</a>
+      <a href="https://chase-stokes-blog.vercel.app/" target='_blank'>Code</a>
       <DisplayPlane link='https://chase-stokes-blog.vercel.app/' />
       <br />
+      <hr />
       <h4>Next - Prisma/PostgreSQL</h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Next.js application created to familiarize myself with CRUD functionality using Prisma and PostgreSQL.
       </p>
+      <p>You can view the hosted project and the code below.</p>
+      <a href="https://prisma-postgres-nextjs.vercel.app/" target='_blank'>here</a>
       <a href="https://prisma-postgres-nextjs.vercel.app/" target='_blank'>here</a>
       <DisplayPlane link='https://prisma-postgres-nextjs.vercel.app/' />
       <br />
+      <hr />
       <h4>Three-React-App</h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        React.js project using Three.js, and GSAP to create a 3D scene with animations.
       </p>
+      <p>You can view the codesandbox and te code below.</p>
+      <a href="https://codesandbox.io/p/github/Chase-Stokes/threejs-react/main" target='_blank'>here</a>
       <a href="https://codesandbox.io/p/github/Chase-Stokes/threejs-react/main" target='_blank'>here</a>
       <DisplayPlane link='https://codesandbox.io/p/github/Chase-Stokes/threejs-react/main' />
+      <br />
+      <hr />
     </section>
   )
 }

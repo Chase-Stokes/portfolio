@@ -2,9 +2,10 @@ import Intro from "./intro"
 import About from "./about"
 import Projects from "./projects"
 // import Contact from "./contact"
-// import Education from "./education"
+import School from "./education"
 import Work from "./work"
 import Quote from "./quote"
+
 
 
 const Layout = () => {
@@ -13,6 +14,7 @@ const Layout = () => {
       <Intro />
       <About />
       <Projects />
+      <School />
       <Work />
       {/* <Education /> */}
       {/* <Contact /> */}

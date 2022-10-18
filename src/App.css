@@ -18,9 +18,10 @@
   width: 100vw !important;
 } */
 
+
 :root {
-  --dark-bg: rgba(15, 15, 15, 0.5);
-  --spacing: 350px;
+  --dark-bg: rgba(15, 15, 15, 0.3);
+  --spacing: 200px;
 
   font-weight: 400;
   font-style: normal;
@@ -39,6 +40,10 @@ main {
   grid-template-columns: repeat(12, 1fr);
 }
 
+h1 {
+  margin-bottom: 1rem;
+}
+
 h1, h2, h3, blockquote {
   font-family: elevon, sans-serif;
   font-weight: 700;
@@ -46,37 +51,83 @@ h1, h2, h3, blockquote {
 }
 
 header {
-  background: var(--dark-bg);
-  grid-column: 2 / span 8;
+  /* background: var(--dark-bg); */
+  grid-column: 5 / span 7;
   font-size: 2.5rem;
   padding: 2rem;
   margin-bottom: var(--spacing);
 }
 
+header p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 section {
-  grid-column: 2 / 8;
+  grid-column: 4 / 10;
   padding: 1rem;
-  background: var(--dark-bg);
+  /* background: var(--dark-bg); */
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: var(--spacing);
+  text-align: center;
 }
 
 blockquote {
   margin: 0;
   padding: 0;
-  grid-column: 2 / span 9;
-  margin-bottom: var(--spacing);
-  background-color: rgba(15, 15, 15, 0.5);
+  grid-column: 3 / span 10;
+  margin-top: var(--spacing);
+  /* background-color: rgba(15, 15, 15, 0.3); */
 }
 
 blockquote p {
   color: #ffffff;
-  font-size: 4rem;
-  display: inline;
+  font-size: 1.5rem;
+  /* display: inline; */
   line-height: 1;
 }
 
-.left {
-  grid-column: 6 / 12;
+#quote {
+  font-size: 1.2rem;
+  grid-column: 9 / span 10;
+  margin-top: .2rem;
 }
+
+.right {
+  grid-column: 4 / 10;
+  margin-bottom: 3rem
+}
+
+a {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 34px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0 0.5rem;
+  position: relative;
+
+  border: 2px solid #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: background-color 0.3s linear, color 0.3s linear;
+  background: black;
+
+  margin-bottom: 5rem;
+}
+a:hover {
+  color: black;
+  background: white;
+}
+
+/* #group {
+  margin: 1rem 1rem;
+} */
+
